@@ -8,7 +8,7 @@ VALUES 	('bz','Brazil'), ('mx','Mexico'), ('nz','New Zealand'),
 			('sw','Sweden'), ('de','Germany'), ('us','United States');
 
 DELETE FROM countries
-WHERE country_code = 'us';
+WHERE country_code = 'mx';
 
 CREATE TABLE cities (
 	name text NOT NULL,
